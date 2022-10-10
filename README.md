@@ -1,1 +1,1 @@
-# GTEX_HISTO
+## Classification of histological images
