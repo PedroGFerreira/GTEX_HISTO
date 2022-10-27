@@ -68,12 +68,14 @@ Distribution of samples and tiles per tissue
 
 
 ## Results
-Some results on the test set.
+Some results on the test set. This is still a work in progress project and the results are constantly being updated.
 
 * Tiles
+*
 ![image](https://user-images.githubusercontent.com/22194539/198324286-268d8a78-20f5-4c7a-a889-a05b9e0f0a83.png)
 
 * Samples
+
 ![image](https://user-images.githubusercontent.com/22194539/198324351-d4c81357-d79f-4207-ab04-3a3456a442b9.png)
 
 
