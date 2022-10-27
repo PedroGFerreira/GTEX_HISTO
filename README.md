@@ -63,6 +63,7 @@ To create the predictive machine learning models the Python Data Science Ecosyst
 * Number of samples in validation set: 1094
 
 Distribution of samples and tiles per tissue
+
 ![image](https://user-images.githubusercontent.com/22194539/198324091-be40ffc4-d1ee-42d1-aeb8-d9675342b3a2.png)
 
 
