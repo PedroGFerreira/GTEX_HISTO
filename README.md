@@ -18,7 +18,7 @@ The [PyHist package] (https://pyhist.readthedocs.io/en/latest/) is used to segme
 
 
 ## Models
-
+To create the predictive machine learning models the Python Data Science Ecosystem modules were used. In particular, Keras was used to train de CNN models. We trained one model from scratch and use two-pretrained architectures. The last layers were trained, followed by a fine-tunning step. The following architures were evaluated.
 
 1. Scratch CNN
     * 4 X Conv2D (32, 64, 128, 18) + BatchNorm + MaxPool2D
@@ -31,10 +31,16 @@ The [PyHist package] (https://pyhist.readthedocs.io/en/latest/) is used to segme
     * Pre-trained layers
     * Flatten layer
     * Dense layer (50) - relu
-    * Dense Layer (#tissues) – sigmoid
+    * Dense Layer (correspond to #tissues) – sigmoid
 
 3. Xception (imagenet)
     * Pre-trained layers - imagenet
     * Flatten layer
-    * Dense Layer (#tissues) - sigmoid
+    * Dense Layer (correspond to #tissues) - sigmoid
+
+
+### Training Process
+![image](https://user-images.githubusercontent.com/22194539/198322041-f1fc7332-a681-4074-93fa-c5ec8738dd5e.png)
+
+
 
