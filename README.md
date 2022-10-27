@@ -69,9 +69,10 @@ Distribution of samples and tiles per tissue
 
 ## Results
 Some results on the test set. This is still a work in progress project and the results are constantly being updated.
+Results are based on the VGG16 architecture.
 
 * Tiles
-*
+
 ![image](https://user-images.githubusercontent.com/22194539/198324286-268d8a78-20f5-4c7a-a889-a05b9e0f0a83.png)
 
 * Samples
@@ -83,7 +84,7 @@ Some results on the test set. This is still a work in progress project and the r
 
 
 
-
+Clearly, histopathological images have enough signal that allows a classification per tissue types. The poorer performance for some tissues is mostly due to an unbalance representation. 
 
 
 ![image](https://user-images.githubusercontent.com/22194539/198322165-a2613515-3931-4d47-9357-0d1bf7229cf0.png)
