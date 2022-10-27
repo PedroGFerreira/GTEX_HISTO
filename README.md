@@ -18,3 +18,14 @@
     * BatchNorm
     * Dense Layer (#tissues) - sigmoid
 
+2. VGG16
+    * Pre-trained layers
+    * Flatten layer
+    * Dense layer (50) - relu
+    * Dense Layer (#tissues) – sigmoid
+
+3. Xception (imagenet)
+    * Pre-trained layers - imagenet
+    * Flatten layer
+    * Dense Layer (#tissues) - sigmoid
+
