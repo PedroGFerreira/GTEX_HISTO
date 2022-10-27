@@ -43,4 +43,45 @@ To create the predictive machine learning models the Python Data Science Ecosyst
 ![image](https://user-images.githubusercontent.com/22194539/198322041-f1fc7332-a681-4074-93fa-c5ec8738dd5e.png)
 
 
+1. Batch Training
+    * Batch size = 10, 15 or 20
+2. Loss 
+    * Cross entropy Binary or Categorical
+3. Learn rate
+    * Adam - Higher in fit and lower in tuning (1.e-5)
+4. Evaluation on Test and validation dataset
+    * At tile and sample level. A majority voting scheme was used, i.e. the most frequent label in the tiles from a sample was used to label the sample.
+
+## Dataset
+
+* Samples: 5469 (different tissues)
+* Tiles: 483018
+* Average tiles per sample: 88
+
+* Number of samples in train set: 3500
+* Number of samples in test set: 875
+* Number of samples in validation set: 1094
+
+Distribution of samples and tiles per tissue
+![image](https://user-images.githubusercontent.com/22194539/198324091-be40ffc4-d1ee-42d1-aeb8-d9675342b3a2.png)
+
+
+## Results
+Some results on the test set.
+
+* Tiles
+![image](https://user-images.githubusercontent.com/22194539/198324286-268d8a78-20f5-4c7a-a889-a05b9e0f0a83.png)
+
+* Samples
+![image](https://user-images.githubusercontent.com/22194539/198324351-d4c81357-d79f-4207-ab04-3a3456a442b9.png)
+
+
+![image](https://user-images.githubusercontent.com/22194539/198324440-485ec93c-5173-4065-9925-54764d13423b.png)
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/22194539/198322165-a2613515-3931-4d47-9357-0d1bf7229cf0.png)
 
